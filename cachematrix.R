@@ -26,7 +26,6 @@ m <- NULL
 ## Otherwise, it calculates the inverse of the matrix and sets the value of the inverse in the cache via the setinverse function.
 
 cacheSolve <- function(x, ...) {
-cacheSolve <- function(x, ...) {
   m <- x$getinverse()
   if(!is.null(m)) {
     message("getting cached data")
